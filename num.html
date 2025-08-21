@@ -35,13 +35,14 @@
         <div class="container">
             <h1>Subscribe to our newsletter and follow us on our social media platforms to get daily updates or mail us for any queries</h1>
             <div class="form">
-                <form name="subscribe" method="POST">
-                    <!-- <input style=" border-radius: 50px" type="email" placeholder="Enter Email..." required> -->
-                    <p>
-                        <input type="email" name="email" style=" border-radius: 50px" type="email" placeholder="Enter Email..." required />
-                        <button type="submit" class="button_1">Subscribe</button>
-                    </p>
-                </form>
+					<form name="subscribe" onsubmit="subscribe(event)">
+						<!-- <input style=" border-radius: 50px" type="email" placeholder="Enter Email..." required> -->
+						<p>
+							<input type="email" name="email" style=" border-radius: 50px" type="email"
+								placeholder="Enter Email..." required />
+							<button class="button_1">Subscribe</button>
+						</p>
+					</form>
             </div>
         </div>
         <div class="icons">

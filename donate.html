@@ -427,13 +427,14 @@
 
           <div class="form">
             <br><br><br><br><br><br><br>
-            <form name="subscribe" method="POST">
-                <!-- <input style=" border-radius: 50px" type="email" placeholder="Enter Email..." required> -->
-                <p style="margin-left:-650px; white-space: nowrap;">
-              <input type="email" name="email" style=" border-radius: 20px ;" type="email" placeholder="Enter Email..." required />
-            <button type="submit" class="button_1">Subscribe</button>
-          </p>
-            </form>
+					<form name="subscribe" onsubmit="subscribe(event)">
+						<!-- <input style=" border-radius: 50px" type="email" placeholder="Enter Email..." required> -->
+						<p>
+							<input type="email" name="email" style=" border-radius: 50px" type="email"
+								placeholder="Enter Email..." required />
+							<button class="button_1">Subscribe</button>
+						</p>
+					</form>
         </div>
         </div>
         <div class="icons">
