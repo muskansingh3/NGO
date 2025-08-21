@@ -8,7 +8,9 @@
 // }
 
 
-
+function subscribe(e) {
+  // e.preventDefault();
+}
 
 function toggle() {
   const menuList = document.getElementById('menu-list');
